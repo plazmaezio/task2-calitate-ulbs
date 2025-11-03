@@ -1,0 +1,431 @@
+/* ULBS CSS File 
+Copyright 2004 Zeno POPOVICI
+Centrul de Comunicatii al ULBS
+*/
+BODY {
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  scrollbar-face-color: #011f5b;
+  scrollbar-highlight-color: #6e83ad;
+  scrollbar-shadow-color: #000000;
+  scrollbar-3dlight-color: #011f5b;
+  scrollbar-arrow-color: #ffffff;
+  scrollbar-track-color: #6e83ad;
+  scrollbar-darkshadow-color: #000000;
+  overflow: auto;
+}
+BIG {
+  font-weight: bold;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+H2 {
+  font-weight: bold;
+  font-size: 20px;
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+}
+H3 {
+  font-weight: bold;
+  font-size: 20px;
+  color: #990000;
+  font-family: Arial, Helvetica, sans-serif;
+}
+H4 {
+  font-size: 14px;
+  color: #000000;
+  font-family: Times New Roman, Times, serif;
+}
+LI {
+  list-style-type: square;
+}
+SMALL {
+  font-size: 11px;
+  color: #666666;
+  font-family: Tahoma, Arial, Helvetica, sans-serif;
+}
+Table.TBBorder TD#White {
+  border: 0px solid #ffffff;
+  font-size: xx-small;
+  background-color: #ffffff;
+  padding: 2px;
+}
+Table.TBBorder TH,
+Table.TBBorder TD,
+Table.TBBorder TR {
+  border: 0px solid #ffffff;
+  font-size: xx-small;
+  background-color: #eaedff;
+  padding: 2px;
+}
+TABLE {
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+TD {
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+TH {
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+A:hover {
+  color: #990000;
+  text-decoration: underline;
+}
+.bigger {
+  font-size: 15px;
+}
+
+.black {
+  color: #000000;
+}
+.BlueBorder {
+  border-color: #011f5b;
+  border-style: dashed;
+  border-width: 1px;
+}
+.BlackBorder {
+  border-color: #000000;
+  border-style: solid;
+  border-width: 1px;
+}
+.BrGray {
+  color: #999999;
+}
+.BrBlue {
+  color: #6e83ad;
+}
+.button {
+  font-size: 11px;
+  color: #ffffff;
+  font-family: Tahoma, Arial, Helvetica, sans-serif;
+  background-color: #011f5b;
+}
+.clock {
+  padding-right: 0px;
+  padding-left: 0px;
+  font-size: 11px;
+  padding-bottom: 0px;
+  width: 52px;
+  padding-top: 0px;
+  font-family: Tahoma, Arial, sans-serif;
+  background-color: #e1e8f3;
+  border-style: none;
+}
+.cnotice {
+  text-decoration: none;
+  font-size: xx-small;
+  color: #999999;
+}
+.cnotice A {
+  color: #999999;
+  font-size: xx-small;
+  text-decoration: none;
+  border-bottom: 1px dashed;
+}
+.cnotice A:hover {
+  color: #999999;
+  text-decoration: none;
+  border-bottom: 1px solid;
+}
+.CloseWindowS {
+  border-color: #990000;
+  background-color: #990000;
+  border-style: solid;
+  border-width: 3px;
+}
+.default {
+  font-weight: bold;
+}
+.defaultErr {
+  font-weight: bold;
+  color: #990000;
+}
+.DkBlue {
+  color: #011f5b;
+}
+.Gray {
+  color: #666666;
+}
+.NewsLine {
+  font-size: 10px;
+  text-decoration: none;
+  color: #666666;
+}
+.NewsLine A {
+  color: #011f5b;
+  font-size: 11px;
+  text-decoration: none;
+}
+.NewsLine A:visited {
+  font-size: 11px;
+  color: #011f5b;
+  text-decoration: none;
+}
+.NewsLine A:hover {
+  font-size: 11px;
+  color: #990000;
+  text-decoration: underline;
+}
+.NewsSubtitle {
+  padding-right: 2px;
+  padding-left: 4px;
+  font-weight: bold;
+  font-size: 12px;
+  padding-bottom: 1px;
+  width: 100%;
+  color: #ffffff;
+  padding-top: 1px;
+  font-family: Tahoma, Arial, Helvetica, sans-serif;
+  background-color: #990000;
+}
+.NewsFont {
+  font-family: Georgia;
+  font-size: 18px;
+  font-weight: normal;
+}
+.NewsFontMain {
+  font-family: Tahoma, Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #011f5b;
+}
+.NewsFontMain A {
+  font-family: Tahoma, Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #011f5b;
+}
+.NewsFontMain A:visited {
+  font-family: Tahoma, Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #011f5b;
+}
+.NewsFontMain A:hover {
+  font-family: Tahoma, Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  text-decoration: underline;
+  color: #990000;
+}
+.NewsFontPin {
+  font-family: Tahoma, Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #011f5b;
+}
+.NewsFontPin A {
+  font-family: Tahoma, Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #011f5b;
+}
+.NewsFontPin A:visited {
+  font-family: Tahoma, Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #011f5b;
+}
+.NewsFontPin A:hover {
+  font-family: Tahoma, Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: underline;
+  color: #990000;
+}
+.NewsFontMainLine {
+  font-size: 11px;
+  color: #666666;
+  font-family: Tahoma, Arial, Helvetica, sans-serif;
+}
+/* WebCam Used! */
+.NoteLight {
+  font-size: 10px;
+  color: #999999;
+  font-family: Tahoma, Arial, Helvetica, sans-serif;
+}
+.NoteLight A {
+  font-size: 10px;
+  color: #999999;
+  font-family: Tahoma, Arial, Helvetica, sans-serif;
+}
+.nsfix {
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.PageSubtitle {
+  padding-right: 2px;
+  padding-left: 4px;
+  font-weight: bold;
+  font-size: 12px;
+  padding-bottom: 1px;
+  width: 100%;
+  color: #011f5b;
+  padding-top: 1px;
+  font-family: Tahoma, Arial, Helvetica, sans-serif;
+  background-color: #e1e8f3;
+}
+.PageFooterText {
+  font-size: 11px;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: Tahoma, Arial, Helvetica, sans-serif;
+}
+.PageFooterText A {
+  font-size: 11px;
+  color: #ffffff;
+  text-decoration: none;
+  border-bottom: 1px solid;
+  font-family: Tahoma, Arial, Helvetica, sans-serif;
+}
+.PageFooterText A:visited {
+  font-size: 11px;
+  color: #ffffff;
+  text-decoration: none;
+  border-bottom: 1px solid;
+  font-family: Tahoma, Arial, Helvetica, sans-serif;
+}
+.PageFooterText A:hover {
+  font-size: 11px;
+  color: #ffffff;
+  text-decoration: none;
+  border-bottom: 1px dashed;
+  font-family: Tahoma, Arial, Helvetica, sans-serif;
+}
+.PageHeaderText {
+  font-size: 11px;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: Tahoma, Arial, Helvetica, sans-serif;
+}
+.PageHeaderText A {
+  font-size: 11px;
+  color: #ffffff;
+  text-decoration: none;
+  font-family: Tahoma, Arial, Helvetica, sans-serif;
+}
+.PageHeaderText A:visited {
+  font-size: 11px;
+  color: #ffffff;
+  text-decoration: none;
+  font-family: Tahoma, Arial, Helvetica, sans-serif;
+}
+.PageHeaderText A:hover {
+  font-size: 11px;
+  color: #ffffff;
+  text-decoration: none;
+  font-family: Tahoma, Arial, Helvetica, sans-serif;
+}
+.red {
+  color: #990000;
+}
+.redborder {
+  border-color: #990000;
+  border-style: dotted;
+  border-width: 1px;
+}
+.sidelight {
+  font-size: 10px;
+  color: #ffcc00;
+  font-family: Tahoma, Arial, Helvetica, sans-serif;
+}
+.searchbox {
+  padding-right: 0px;
+  padding-left: 0px;
+  font-size: 11px;
+  padding-bottom: 0px;
+  width: 87px;
+  padding-top: 0px;
+  font-family: Tahoma, Arial, sans-serif;
+  background-color: #e1e8f3;
+  text-align: center;
+}
+.SmallBrBlue {
+  color: #6e83ad;
+  font-size: xx-small;
+}
+.SmallDkBlue {
+  color: #011f5b;
+  font-size: xx-small;
+}
+.SmallRed {
+  color: #990000;
+  font-size: xx-small;
+}
+.SmallGray {
+  color: #666666;
+  font-size: xx-small;
+}
+.submenu {
+  font-size: 10px;
+  color: #a0b7e0;
+  font-family: Tahoma, Arial, Helvetica, sans-serif;
+}
+.submenu A {
+  color: #ffffff;
+}
+.submenu A:hover {
+  color: #a0b7e0;
+}
+.sublink {
+  color: #a0b7e0;
+  text-decoration: none;
+}
+.TableH {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: xx-small;
+  background-image: url("http://www.ulbsibiu.ro/obj/img/other/tables/cellpic3.gif");
+}
+.TableH A {
+  color: #ffffff;
+  text-decoration: none;
+}
+.TableH A:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+.VerySmall {
+  font-size: xx-small;
+}
+.VerySmallB {
+  font-size: xx-small;
+  font-weight: bold;
+}
+.white {
+  color: #ffffff;
+}
+.Whitemenu {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+.Whitemenu A {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+.Whitemenu A:visited {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+.Whitemenu A:hover {
+  color: #ff0000;
+  text-decoration: none;
+  font-weight: bold;
+}
+.WhiteBorder {
+  border-color: #ffffff;
+  border-style: solid;
+  border-width: 1px;
+}
