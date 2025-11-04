@@ -159,52 +159,25 @@ function App() {
               </ul>
 
               <h4>Politica în domeniul calității</h4>
-              <p>
-                <a href="/task2/documents/Viziune-Misiune-Valori-Obiective ULBS.pdf">
-                  Viziunea, misiunea, valorile și obiectivele strategice ale
-                  ULBS
-                </a>
-              </p>
-              <p>
-                <a href="/task2/documents/Politica în domeniul calității a ULBS.pdf">
-                  Politica în domeniul calității a ULBS
-                </a>
-              </p>
-              <p>
-                <a href="/task2/documents/Asigurarea calității la ULBS.pdf">
-                  Asigurarea calității la ULBS
-                </a>
-              </p>
-
-              <div className="contact-box">
-                <img
-                  src="/task2/obj/img/Sunburst_2015.jpg"
-                  alt="Sunburst"
-                  className="sunburst"
-                />
-                <div className="contact-details">
-                  <h5>Informații de contact</h5>
-                  <p>
-                    <strong>Adresa:</strong> Bd-ul. Victoriei, Nr.10, Sibiu,
-                    550024, Romania
-                  </p>
-                  <p>
-                    <strong>Tel:</strong> +40-269-217.779, int. 139, 148
-                  </p>
-                  <p>
-                    <strong>E-mail:</strong>{" "}
-                    <a href="mailto:dep.calitate@ulbsibiu.ro">
-                      dep.calitate@ulbsibiu.ro
-                    </a>
-                  </p>
-                  <p>
-                    <strong>Web:</strong>{" "}
-                    <a href="http://calitate.ulbsibiu.ro">
-                      http://calitate.ulbsibiu.ro
-                    </a>
-                  </p>
-                </div>
-              </div>
+              <ul>
+                <li>
+                  <a href="/task2/documents/Viziune-Misiune-Valori-Obiective ULBS.pdf">
+                    Viziunea, misiunea, valorile și obiectivele strategice ale
+                    ULBS
+                  </a>
+                </li>
+                <li>
+                  <a href="/task2/documents/Politica în domeniul calității a ULBS.pdf">
+                    Politica în domeniul calității a ULBS
+                  </a>
+                </li>
+                <li>
+                  <a href="/task2/documents/Asigurarea calității la ULBS.pdf">
+                    Asigurarea calității la ULBS
+                  </a>
+                </li>
+              </ul>
+              {/* Contact info moved to footer */}
             </div>
           </section>
         </div>
@@ -212,11 +185,42 @@ function App() {
 
       <footer className="site-footer">
         <div className="footer-inner">
-          <p>
-            Copyright © 1998-2025{" "}
-            <a href="http://ccom.ulbsibiu.ro/">Centrul de Comunicații</a> |{" "}
-            <a href="/task2/index.html">Departamentul Asigurarea Calității</a>
-          </p>
+          <div className="footer-contact">
+            <img
+              src="/task2/obj/img/Sunburst_2015.jpg"
+              alt="Sunburst"
+              className="footer-sunburst"
+            />
+            <div className="contact-details">
+              <h5 color="#ffffff">Informații de contact</h5>
+              <p>
+                <strong>Adresa:</strong> Bd-ul. Victoriei, Nr.10, Sibiu, 550024,
+                Romania
+              </p>
+              <p>
+                <strong>Tel:</strong> +40-269-217.779, int. 139, 148
+              </p>
+              <p>
+                <strong>E-mail:</strong>{" "}
+                <a href="mailto:dep.calitate@ulbsibiu.ro">
+                  dep.calitate@ulbsibiu.ro
+                </a>
+              </p>
+              <p>
+                <strong>Web:</strong>{" "}
+                <a href="http://calitate.ulbsibiu.ro">
+                  http://calitate.ulbsibiu.ro
+                </a>
+              </p>
+            </div>
+          </div>
+          <div className="footer-copyright">
+            <p>
+              Copyright © 1998-2025{" "}
+              <a href="http://ccom.ulbsibiu.ro/">Centrul de Comunicații</a> |{" "}
+              <a href="/task2/index.html">Departamentul Asigurarea Calității</a>
+            </p>
+          </div>
         </div>
       </footer>
     </div>

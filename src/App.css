@@ -33,6 +33,11 @@ body {
   max-width: 1100px;
   margin: 2.25rem 1rem; /* top/bottom and small side gutters on mobile */
   padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  min-height: calc(
+    100vh - 4rem
+  ); /* keep some breathing room from viewport edges */
 }
 
 .site-header {
@@ -161,14 +166,108 @@ body {
 }
 
 .site-footer {
-  margin-top: 1.5rem;
-  text-align: center;
-  color: var(--muted);
-  font-size: 0.9rem;
+  margin-top: auto; /* push footer to the bottom when there's little content */
+  background: linear-gradient(90deg, var(--accent) 0%, var(--accent-2) 100%);
+  color: #fff;
+  padding: 2rem 0 1rem 0;
+  font-size: 1rem;
+  border-radius: 12px; /* rounded corners */
+  box-shadow: 0 10px 30px rgba(2, 6, 23, 0.28);
 }
 .site-footer a {
-  color: var(--accent);
-  text-decoration: none;
+  color: #ffffff; /* make footer links white */
+  text-decoration: underline;
+}
+.site-footer a:hover {
+  color: #ffffff56;
+}
+
+.footer-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 2.5rem;
+  flex-wrap: wrap;
+  min-height: 120px; /* give footer some vertical room so bottom alignment is meaningful */
+}
+.footer-contact {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+.footer-sunburst {
+  width: 160px; /* larger image so it stands out more */
+  height: auto;
+  object-fit: contain;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.14);
+}
+.contact-details {
+  color: #fff;
+  font-size: 1rem;
+}
+
+.contact-details h5 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.18rem; /* a bit larger */
+  font-weight: 700; /* stronger weight so it's clearly a title */
+  color: #ffffff; /* title in white */
+  padding-bottom: 0.3rem;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.06); /* subtle underline */
+}
+
+.contact-details p {
+  margin: 0.2rem 0;
+  font-size: 1rem;
+  color: #ffffff; /* ensure all contact text is white */
+}
+
+.footer-copyright {
+  display: flex;
+  align-items: flex-end;
+  flex: 1 1 200px;
+  justify-content: flex-end;
+  min-width: 220px;
+  margin-top: auto; /* push this block to the bottom of the footer-inner */
+  align-self: flex-end;
+}
+.footer-copyright p {
+  margin: 0;
+  font-size: 1rem;
+  color: #ffffff; /* make copyright text white */
+  text-align: right;
+}
+
+@media (max-width: 700px) {
+  .footer-inner {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1.5rem;
+  }
+  .footer-contact {
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+  }
+  .footer-sunburst {
+    width: 120px; /* slightly smaller on narrow screens but still prominent */
+  }
+  .footer-copyright {
+    justify-content: flex-start;
+    text-align: left;
+    margin-top: 1rem;
+  }
+}
+
+/* make main expand to push footer down when needed */
+main {
+  flex: 1 1 auto;
 }
 
 /* layout: sidebar + content */
@@ -269,9 +368,32 @@ body {
 .expanded-content.open {
   max-height: 2400px; /* large enough for content */
   padding: 1rem;
+  margin-bottom: 1.3rem; /* space between expanded content and footer */
 }
 .expanded-inner h3 {
   margin-top: 0;
+}
+.expanded-inner h3 {
+  font-size: 1.35rem;
+  color: var(--accent);
+  margin-bottom: 0.6rem;
+  font-weight: 700;
+}
+.expanded-inner h4 {
+  font-size: 1.05rem;
+  color: var(--accent-2);
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+@media (max-width: 900px) {
+  .expanded-inner h3 {
+    font-size: 1.25rem;
+  }
+  .expanded-inner h4 {
+    font-size: 1rem;
+  }
 }
 .contact-box {
   display: flex;
@@ -283,10 +405,6 @@ body {
   width: 160px;
   height: auto;
   border-radius: 8px;
-}
-.contact-details h5 {
-  margin: 0 0 0.5rem 0;
-  color: var(--accent);
 }
 
 @media (max-width: 900px) {
