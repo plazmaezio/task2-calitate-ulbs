@@ -5,7 +5,9 @@ export default function Header() {
   return (
     <header className="site-header">
       <div className="header-inner">
-        <img src={logo} alt="ULBS logo" className="brand-logo" />
+        <a href="https://www.ulbsibiu.ro/ro/">
+          <img src={logo} alt="ULBS logo" className="brand-logo" />
+        </a>
         <div className="brand-text">
           <h1>Asigurarea calității — ULBS</h1>
           <p className="subtitle">Departamentul pentru Asigurarea Calității</p>

@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="footer-inner">
         <div className="footer-contact">
           <img
-            src="/task2/obj/img/Sunburst_2015.jpg"
+            src="../src/assets/Sunburst_2015.jpg"
             alt="Sunburst"
             className="footer-sunburst"
           />
@@ -37,7 +37,7 @@ export default function Footer() {
           <p>
             Copyright © 1998-2025{" "}
             <a href="http://ccom.ulbsibiu.ro/">Centrul de Comunicații</a> |{" "}
-            <a href="/task2/index.html">Departamentul Asigurarea Calității</a>
+            <a href="">Departamentul Asigurarea Calității</a>
           </p>
         </div>
       </div>
